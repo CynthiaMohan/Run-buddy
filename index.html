@@ -29,37 +29,40 @@
         </nav>
     </header>
     <!-- Hero/Jumbotron -->
-    <section>
-        <div>
+    <section class="hero">
+        <div class="hero-form">
             <h3>Get Started Today! </h3>
             <p>Fill out this form and one of our trainers will schedule a consult.</p>
+
+
+            <!-- Adding a Form element -->
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+
+                <label for="email">Enter email address</label>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+
+                <label for="phoneno">Enter a telephone Number</label>
+                <input type="tel" name="phoneno" id="phoneno" placeholder="Phone Number">
+
+                <p>Have you worked out with a trainer before?
+
+                    <input type="radio" name="trainer-confirm" id="trainer-yes">
+                    <label for="trainer-yes">Yes</label>
+
+                    <input type="radio" name="trainer-confirm" id="trainer-no">
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="acknowledge">I acknowledge that I am at least 18 years of age.</label>
+                    <input type="checkbox" name="acknowledge" id="acknowledge">
+                </p>
+                <button type="submit">Get Running!</button>
+            </form>
         </div>
-
-        <!-- Adding a Form element -->
-        <form>
-            <label for="name">Enter full name:</label>
-            <input type="text" name="name" id="name" placeholder="Your Name">
-
-            <label for="email">Enter email address</label>
-            <input type="email" name="email" id="email" placeholder="Email Address">
-
-            <label for="phoneno">Enter a telephone Number</label>
-            <input type="tel" name="phoneno" id="phoneno" placeholder="Phone Number">
-
-            <p>Have you worked out with a trainer before?
-
-                <input type="radio" name="trainer-confirm" id="trainer-yes">
-                <label for="trainer-yes">Yes</label>
-
-                <input type="radio" name="trainer-confirm" id="trainer-no">
-                <label for="trainer-no">No</label>
-            </p>
-            <p>I acknowledge that I am at least 18 years of age.
-                <input type="checkbox" name="acknowlwdge" id="acknowlwdge">
-            </p>
-            <button type="submit">Get Running!</button>
-        </form>
     </section>
+    <!-- End of Hero -->
 
     <!-- what We Do Section -->
     <section>

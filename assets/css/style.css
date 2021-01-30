@@ -14,14 +14,16 @@ body{
 /* Applying CSS to header */
 header{
     background-color: #39a6b2;
+    line-height: 1.5;
 }
 
 header h1{
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
+    margin: 20px;
     display: inline;
+    
 }
 
 /* Style the Navigation bar */
@@ -44,8 +46,22 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+section{
+    padding:60px;
+}
 
+/* Styling the Hero */
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
 
+/* Styling the Form */
+.hero-form{
+    
+}
 /* Applying CSS to Footer */
 footer{
     background: #fce138;
