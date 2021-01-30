@@ -60,7 +60,13 @@ section{
 
 /* Styling the Form */
 .hero-form{
-    
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
 }
 /* Applying CSS to Footer */
 footer{
