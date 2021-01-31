@@ -90,7 +90,6 @@ font-size: 16px;
 .hero-form label{
     margin: 0 5px
 }
-
 .hero-form button{
     color: #fce138;
     background-color: #024e76;
@@ -98,6 +97,7 @@ font-size: 16px;
     padding: 10px 20px;
     font-size: 16px;
 }
+/* End of Hero Styling */
 
 /* Applying CSS to Footer */
 footer{
