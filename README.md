@@ -12,3 +12,5 @@ https://cynthiamohan.github.io/Run-buddy/
 
 ## Contribution
 Made with ❤️ by Cynthia M.
+
+### ©️2019 Run Buddy, Inc 
