@@ -240,13 +240,16 @@ footer{
     padding: 40px 35px;
 }
 footer h2{
-    display:inline;
+    /* display:inline; */
     color: #024e76;
     font-size: 30px;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer div {
-    float: right;
+    /* float: right; */
     line-height: 1.5;
     text-align: right;
   }
